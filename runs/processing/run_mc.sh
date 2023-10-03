@@ -25,12 +25,12 @@ for file in "$directory"/*; do
 	cp ../gjets_adl/exTEMPLATE_QCDLbnT.adl exQCD__LbnT$count.adl 
 	dir_name=$(basename "$file")
 	result=$(echo "$dir_name" | cut -d "_" -f 1-2)
-	sed "s/XSECTEMP/${!result}/g" exQCD__tight$count.adl > exQCD__tight${count}_modified.adl
-	sed "s/XSECTEMP/${!result}/g" exQCD__LbnT$count.adl > exQCD__LbnT${count}_modified.adl
+	sed "s/XSECTEMP/${!result}/g" exQCD__tight$count.adl > exQCD__tight${result}_modified.adl
+	sed "s/XSECTEMP/${!result}/g" exQCD__LbnT$count.adl > exQCD__LbnT${result}_modified.adl
 	rm exQCD__tight${count}.adl
 	rm exQCD__LbnT${count}.adl
-	#CLA $file CMSNANO -i exQCD__tight${count}_modified.adl
-	#CLA $file CMSNANO -i exQCD__LbnT${count}_modified.adl
+	#CLA $file CMSNANO -i exQCD__tight${result}_modified.adl
+	#CLA $file CMSNANO -i exQCD__LbnT${result}_modified.adl
 done
 
 #
