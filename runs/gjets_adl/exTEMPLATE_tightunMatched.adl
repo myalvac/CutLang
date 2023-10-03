@@ -1,0 +1,277 @@
+#TABLES
+table photonSF
+  tabletype efficiency
+  nvars 2
+  errors true
+# value   err-  err+     min max  min  max
+1.0     1.0     1.0     -2.5  2.5 500.0 3000.0
+1.09164 0.02617 0.02617 -2.5 -2.0 10.0 20.0
+1.01068 0.01636 0.01636 -2.5 -2.0 20.0 35.0
+1.01171 0.00447 0.00447 -2.5 -2.0 35.0 50.0
+1.01078 0.00703 0.00703 -2.5 -2.0 50.0 100.0
+0.966 0.02789 0.02789 -2.5 -2.0 100.0 200.0
+1.14564 0.08695 0.08695 -2.5 -2.0 200.0 500.0
+1.01688 0.03518 0.03518 -2.0 -1.566 10.0 20.0
+0.98469 0.01529 0.01529 -2.0 -1.566 20.0 35.0
+0.99093 0.00629 0.00629 -2.0 -1.566 35.0 50.0
+0.99877 0.00667 0.00667 -2.0 -1.566 50.0 100.0
+1.01626 0.01961 0.01961 -2.0 -1.566 100.0 200.0
+1.0619 0.0576 0.0576 -2.0 -1.566 200.0 500.0
+1.0 1.0 1.0 -1.566 -1.444 10.0 20.0
+1.0 1.0 1.0 -1.566 -1.444 20.0 35.0
+1.0 1.0 1.0 -1.566 -1.444 35.0 50.0
+1.0 1.0 1.0 -1.566 -1.444 50.0 100.0
+1.0 1.0 1.0 -1.566 -1.444 100.0 200.0
+1.0 1.0 1.0 -1.566 -1.444 200.0 500.0
+1.02653 0.02488 0.02488 -1.444 -0.8 10.0 20.0
+0.97762 0.02029 0.02029 -1.444 -0.8 20.0 35.0
+0.97397 0.0048 0.0048 -1.444 -0.8 35.0 50.0
+0.97452 0.00701 0.00701 -1.444 -0.8 50.0 100.0
+1.01311 0.01479 0.01479 -1.444 -0.8 100.0 200.0
+1.008 0.03317 0.03317 -1.444 -0.8 200.0 500.0
+0.99087 0.02473 0.02473 -0.8 0.0 10.0 20.0
+0.95794 0.0148 0.0148 -0.8 0.0 20.0 35.0
+0.96015 0.00435 0.00435 -0.8 0.0 35.0 50.0
+0.96468 0.01302 0.01302 -0.8 0.0 50.0 100.0
+0.98968 0.00977 0.00977 -0.8 0.0 100.0 200.0
+0.99544 0.0263 0.0263 -0.8 0.0 200.0 500.0
+1.00671 0.02473 0.02473 0.0 0.8 10.0 20.0
+0.96302 0.0148 0.0148 0.0 0.8 20.0 35.0
+0.96795 0.00435 0.00435 0.0 0.8 35.0 50.0
+0.9697 0.01302 0.01302 0.0 0.8 50.0 100.0
+0.98524 0.00955 0.00955 0.0 0.8 100.0 200.0
+1.00225 0.02599 0.02599 0.0 0.8 200.0 500.0
+1.01337 0.02488 0.02488 0.8 1.444 10.0 20.0
+0.97743 0.02029 0.02029 0.8 1.444 20.0 35.0
+0.97257 0.0048 0.0048 0.8 1.444 35.0 50.0
+0.97325 0.00701 0.00701 0.8 1.444 50.0 100.0
+0.98824 0.01487 0.01487 0.8 1.444 100.0 200.0
+1.02169 0.03353 0.03353 0.8 1.444 200.0 500.0
+1.0 1.0 1.0 1.444 1.566 10.0 20.0
+1.0 1.0 1.0 1.444 1.566 20.0 35.0
+1.0 1.0 1.0 1.444 1.566 35.0 50.0
+1.0 1.0 1.0 1.444 1.566 50.0 100.0
+1.0 1.0 1.0 1.444 1.566 100.0 200.0
+1.0 1.0 1.0 1.444 1.566 200.0 500.0
+1.02697 0.03509 0.03509 1.566 2.0 10.0 20.0
+0.98287 0.01529 0.01529 1.566 2.0 20.0 35.0
+0.98701 0.00629 0.00629 1.566 2.0 35.0 50.0
+0.99141 0.00667 0.00667 1.566 2.0 50.0 100.0
+1.00344 0.01951 0.01951 1.566 2.0 100.0 200.0
+0.95518 0.05435 0.05435 1.566 2.0 200.0 500.0
+1.15903 0.02617 0.02617 2.0 2.5 10.0 20.0
+1.03351 0.01636 0.01636 2.0 2.5 20.0 35.0
+1.02635 0.00427 0.00427 2.0 2.5 35.0 50.0
+1.0175 0.00703 0.00703 2.0 2.5 50.0 100.0
+1.01322 0.0277 0.0277 2.0 2.5 100.0 200.0
+1.01616 0.07685 0.07685 2.0 2.5 200.0 500.0
+
+table puSF
+  tabletype efficiency
+  nvars 1
+  errors false
+# value   min    max  
+0.5606274501617257 0.0 1.0
+0.7356768483871649 1.0 2.0
+0.5379188633753175 2.0 3.0
+1.2182340591901963 3.0 4.0
+0.8022589690291095 4.0 5.0
+0.9162976557604049 5.0 6.0
+1.003535312936628 6.0 7.0
+0.9251530003546206 7.0 8.0
+0.6846758768244973 8.0 9.0
+0.7131643263497829 9.0 10.0
+0.7505121453664256 10.0 11.0
+0.8165176845201679 11.0 12.0
+0.8376691149971116 12.0 13.0
+0.8463556349225367 13.0 14.0
+0.8440283307216907 14.0 15.0
+0.8439067501616221 15.0 16.0
+0.8666288136879027 16.0 17.0
+0.8929616622202589 17.0 18.0
+0.9180239555146693 18.0 19.0
+0.935790272134298 19.0 20.0
+0.955642655920925 20.0 21.0
+0.9721436743265397 21.0 22.0
+0.9811830103960277 22.0 23.0
+0.9832298276272486 23.0 24.0
+0.9780842804147186 24.0 25.0
+0.9759522586882173 25.0 26.0
+0.9765532797637644 26.0 27.0
+0.9826844936610849 27.0 28.0
+0.9903925406573874 28.0 29.0
+0.9981198250763845 29.0 30.0
+1.0078237475091618 30.0 31.0
+1.0190171202315066 31.0 32.0
+1.0302623762332643 32.0 33.0
+1.0435067424485087 33.0 34.0
+1.0528813019381105 34.0 35.0
+1.0608328042066388 35.0 36.0
+1.0679579902779912 36.0 37.0
+1.0711178477343726 37.0 38.0
+1.0701726006927776 38.0 39.0
+1.060859296653894 39.0 40.0
+1.0426792861342353 40.0 41.0
+1.0292999470188828 41.0 42.0
+1.0110271497967938 42.0 43.0
+0.9897588283333133 43.0 44.0
+0.9667128305549556 44.0 45.0
+0.9596532250565136 45.0 46.0
+0.9605181850826993 46.0 47.0
+0.9726211902626136 47.0 48.0
+0.9859803195910881 48.0 49.0
+1.020363676378838 49.0 50.0
+1.0798058360013258 50.0 51.0
+1.1309571629768707 51.0 52.0
+1.175243761081318 52.0 53.0
+1.2064250514822663 53.0 54.0
+1.189348237345438 54.0 55.0
+1.1753639704805523 55.0 56.0
+1.1530457253958721 56.0 57.0
+1.1393426036896417 57.0 58.0
+1.1491059101720862 58.0 59.0
+1.1861940552964225 59.0 60.0
+1.2296910155394334 60.0 61.0
+1.2843317998625814 61.0 62.0
+1.3475112583181765 62.0 63.0
+1.4150771619108746 63.0 64.0
+1.4889931991997256 64.0 65.0
+1.563992790221278 65.0 66.0
+1.760507707530153 66.0 67.0
+2.497372112029446 67.0 68.0
+3.604846398582341 68.0 69.0
+3.510370289929817 69.0 70.0
+5.546157762390264 70.0 71.0
+16.473485712388374 71.0 72.0
+30.20828799262541 72.0 73.0
+159.5512976373929 73.0 74.0
+0.0 74.0 100.0
+
+# OBJECT LISTS
+object genPhotons
+  take GEN
+  select status(GEN) == 1   #is stable
+  select statusFlags(GEN) & (1 << 0) > 0  #is prompt 
+  select statusFlags(GEN) & (1 << 8) > 0  #is the direct descendant of a hard process particle of the same pdg id
+  select abs(pdgId(GEN))==22 #is Photon
+
+object notmatchedPhotons
+  take Photon
+  select (max(dR(Photon,genPhotons)) > 0.2 and max(abs(pT(Photon)-pT(genPhotons))/pT(genPhotons)) < 0.2) OR (max(dR(Photon,genPhotons)) < 0.2 and max(abs(pT(Photon)-pT(genPhotons))/pT(genPhotons)) > 0.2)
+
+object goodPhotons
+  take notmatchedPhotons
+  select cutBasedBit(notmatchedPhotons) >= 3
+  select pT(notmatchedPhotons) > 200
+  select abs(eta(notmatchedPhotons)) < 1.4
+
+object goodJets # Target jet collection
+  take Jet # Input jet collection
+  select jetId(Jet) >= 6 # applied to each jet in the collection
+  select pT(Jet) > 200 # applied to each jet in the collection
+  select abs(eta(Jet)) < 2.4 # applied to each jet in the collection
+
+object goodbJets
+  take goodJets # Input can be an object collection defined in the ADL file.
+  select btagDeepFlavB(goodJets) >= 0.7476
+
+#BTAG FUNCTION
+define SFBTAG1b : DELTA(hadronFlavour(goodbJets[0])    )*(0.850069+1.99726/sqrt(btagDeepFlavB(goodbJets[0])))
+               +DELTA(hadronFlavour(goodbJets[0]) - 4)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[0])+19)*log(btagDeepFlavB(goodbJets[0])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[0])+18)) )
+               +DELTA(hadronFlavour(goodbJets[0]) - 5)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[0])+19)*log(btagDeepFlavB(goodbJets[0])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[0])+18)) )
+
+define SFBTAG2b : (DELTA(hadronFlavour(goodbJets[0])    )*(0.850069+1.99726/sqrt(btagDeepFlavB(goodbJets[0])))
+               +DELTA(hadronFlavour(goodbJets[0]) - 4)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[0])+19)*log(btagDeepFlavB(goodbJets[0])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[0])+18)) )
+               +DELTA(hadronFlavour(goodbJets[0]) - 5)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[0])+19)*log(btagDeepFlavB(goodbJets[0])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[0])+18)) )) * (
+		DELTA(hadronFlavour(goodbJets[1])    )*(0.850069+1.99726/sqrt(btagDeepFlavB(goodbJets[1])))
+               +DELTA(hadronFlavour(goodbJets[1]) - 4)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[1])+19)*log(btagDeepFlavB(goodbJets[1])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[1])+18)) )
+               +DELTA(hadronFlavour(goodbJets[1]) - 5)*(1.28462 - 0.0149198*log(btagDeepFlavB(goodbJets[1])+19)*log(btagDeepFlavB(goodbJets[1])+18)*(3 - 0.392618*log(btagDeepFlavB(goodbJets[1])+18)) ))
+
+
+# HISTOGRAM LISTS
+histoList nshistos
+  histo hnpho , "number of photons", 20, 0, 20, size(PHO)
+  histo hngenpho , "number of gen photons", 20, 0, 20, size(genPhotons)
+  histo hnmatchedpho , "number of not matched photons", 20, 0, 20, size(notmatchedPhotons)
+  histo hngoodpho , "number of photons", 20, 0, 20, size(goodPhotons)
+  histo hnjets , "number of jets", 20, 0, 20, size(goodJets)
+  histo hnbjets , "number of b jets", 20, 0, 20, size(goodbJets)
+  histo hnpvsGood , "PV_npvsGood" , 50, 0, 100 , PV_npvsGood
+
+histoList jetHistos
+  histo hjet1pt , "jet1 pT (GeV)", 60, 0, 3000, pT(goodJets[0])
+  histo hjet1eta , "jet1 eta", 40, -3, 3, eta(goodJets[0])
+  histo hjet1phi , "jet1 phi", 40, -3, 3, phi(goodJets[0])
+
+histoList phoHistos
+  histo hphopT , "photon pT (GeV)", 60, 0, 3000, pT(goodPhotons[0])
+  histo hphoeta , "photon eta", 20, -2, 2, eta(goodPhotons[0])
+  histo hphophi , "photon phi", 20, -4, 4, phi(goodPhotons[0])
+  histo hphorelIsoall , "photon relIso All", 20, 0, 0.06, pfRelIso03_all(goodPhotons[0])
+  histo hphorelIsochg , "photon relIso Chg", 20, 0, 0.006, pfRelIso03_chg(goodPhotons[0])
+  histo hphor9 , "photon r9", 20, 0, 2, r9(goodPhotons[0])
+  histo hphohoe , "photon hoe", 20, 0, 0.1, hoe(goodPhotons[0])
+  histo hphosieie , "photon sieie", 20, 0, 0.02, sieie(goodPhotons[0])
+
+histoList genReco
+  histo hgenrecoPho, "Gen Photon pT vs. Reco Photon pT (GeV)", 40, 0, 1000, 40, 0, 1000, pT(goodPhotons[0]), pT(genPhotons[0])
+
+
+histoList forbkgest
+  histo hphohoenB , "photon hoe vs n bjet", 20, 0, 0.1, 3, 0 , 3 , hoe(goodPhotons[0]) , size(goodbJets)
+  histo hphohoeIso , "photon hoe vs rel Iso All", 20, 0, 0.1, 20, 0 , 0.1 , hoe(goodPhotons[0]) , pfRelIso03_all(goodPhotons[0])
+  histo hphohoeIsochg , "photon hoe vs rel Iso Chg", 20, 0, 0.1, 20, 0 , 0.1 , hoe(goodPhotons[0]) , pfRelIso03_chg(goodPhotons[0])
+
+
+
+region baseline
+  select ALL # write out the initial number of events 
+  nshistos
+  weight xsecWeight XSECTEMP
+  select PV_npvsGood>=1
+  weight puWeight puSF(Pileup_nTrueInt) 
+  select Flag_goodVertices ==1
+  select Flag_globalSuperTightHalo2016Filter ==1
+  select Flag_eeBadScFilter ==1
+  select Flag_HBHENoiseFilter ==1
+  select Flag_HBHENoiseIsoFilter ==1
+  select Flag_EcalDeadCellTriggerPrimitiveFilter ==1
+  select Flag_BadPFMuonFilter ==1
+  select Flag_ecalBadCalibFilter ==1
+
+region presel
+  baseline
+  select size(genPhotons) > 0
+  select size(notmatchedPhotons) > 0
+  select size(goodPhotons) == 1
+  genReco
+  weight phoSF photonSF({goodPhotons[0]}Eta, {goodPhotons[0]}pT)
+  histo rho , "Rho", 80, 0, 80, fixedGridRhoFastjetAll
+  select size(goodJets) > 0
+  select size(goodbJets) >= 0
+  select min(dR(goodPhotons[0],goodJets)) > 0.5
+  histo rho , "Rho", 80, 0, 80, fixedGridRhoFastjetAll
+  histo jetarea , "Jet area", 20, 0, 1, area(goodJets[0])
+  phoHistos
+  jetHistos
+  forbkgest
+
+region zeroB
+  presel
+  select size(goodbJets) == 0
+  phoHistos
+  jetHistos
+
+region singleB
+  presel
+  select size(goodbJets) == 1
+  weight wbtag SFBTAG1b
+  phoHistos
+  jetHistos
+
+region diB
+  presel
+  select size(goodbJets) == 2
+  weight wbtag SFBTAG2b
+  phoHistos
+  jetHistos
