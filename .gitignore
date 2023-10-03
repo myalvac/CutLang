@@ -7,6 +7,10 @@ parser_test/l.cpp
 
 */*.o
 */*.pcm
+*.root
+
+runs/processing/*.adl
+
 
 CLA/b.cpp
 CLA/b.hpp
